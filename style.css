@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family:"signika",sans-serif ;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --accent:#E74C3C;
+    --orange:#feeadf;
+    --black:#1e1e1e;
+}
+body{
+    color: white;
+}
+section{
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center center;
+}
+.page{
+    background-image: ;
+
+}
