@@ -40,5 +40,26 @@ nav{
     line-height: 80px;
     margin-left: 50px;
     font-weight:800;
-    
+
 }
+nav div{
+    display: flex;
+    align-items: center;
+    gap:39px;
+}
+nav ul{
+    float: none;
+    padding-left: 0px;
+
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 82px;
+    margin: 0px 5px;
+}
+nav ul li a{
+    color: var(--black);
+    font-size: 24px;;
+}
+
