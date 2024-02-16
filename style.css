@@ -20,6 +20,25 @@ section{
     background-position: center center;
 }
 .page{
-    background-image: ;
-
+    background-image:url("img/hero-bg.png") ;
+    display: flex;
+    flex-direction:column ;
+}
+nav{
+    background:transparent;
+    height: 80px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color:aliceblue;
+}
+.logo{
+    color:var(--accent);
+    font-size: 64px;
+    line-height: 80px;
+    margin-left: 50px;
+    font-weight:800;
+    
 }
