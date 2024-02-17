@@ -101,3 +101,81 @@ a:hover {
     transition: all 0.5s ease-in-out;
 } 
 
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px 0px 50px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.headlines{
+    display: flex;
+    flex-direction:column ;
+}
+.headlines h1 {
+    width: 660px;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+
+.red {
+    color: var(--accent);
+}
+
+.btn-red{
+    background-color: var(--accent);
+    color: white;
+    width: 343px;
+    height: 68px;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: solid var(--accent) 1px;
+    color: var(--accent);
+    font-size: 20px;
+    display: flex;
+    gap: 24px;
+}
+
+.btn-1:hover {
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+.hero-img img{
+    width: 80px;
+    margin-left: 100px;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg) ;
+    }
+}
+
+.features{
+    width: 954px;
+    height: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    align-self: center;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+
+
+
