@@ -116,7 +116,7 @@ a:hover {
 }
 .headlines h1 {
     width: 660px;
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
 
 }
@@ -159,7 +159,7 @@ a:hover {
 }
 
 .hero-img img{
-    width: 550px;
+    width: 500px;
     margin-left: 100px;
     animation: rotate 20s linear infinite;
 }
