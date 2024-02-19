@@ -290,5 +290,30 @@ a:hover {
     /*align-items: center;*/
 }
 
+.callout{
+    height: 422px;
+    background-image:url("img/callout-bg.png")  ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 100px;
+
+
+}
+
+.callout h1{
+    width: 680px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.callout p{
+    width: 805px;
+    font-size: 20px;
+}
 
 
