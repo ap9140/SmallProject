@@ -403,5 +403,17 @@ a:hover {
     background-image: url("img/burger.png");
 }
 
+.steak{
+    width: 536px;
+    height: 236px;
+    background-image: url("img/steak.png");
+}
+
+.cake{
+    width: 536px;
+    height: 419px;
+    background-image: url("img/velvet-cake.png");
+
+}
 
 
