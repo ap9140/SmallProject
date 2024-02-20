@@ -331,3 +331,11 @@ a:hover {
     justify-content: center;
 
 }
+.menu-title h1{
+    font-size: 64px;
+}
+.menu-title i{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
