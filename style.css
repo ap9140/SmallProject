@@ -365,3 +365,43 @@ a:hover {
     transition:all 0.5s ease-in-out ;
 
 }
+.menu-item:hover{
+    transform: translateX(4px);
+    filter: drop-shadow(0px 5px 10px #29292992);
+
+}
+
+.CS{
+    background-image: url(img/chicken-salad.png);
+    height: 470px;
+    width: 760px;
+}
+.menu-item-title{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    background-color: white;
+    width: 349px;
+    height: 44px;
+    border-radius: 64px;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: black;
+    transition:all 0.5s ease-in-out ;
+
+}
+
+.burger{
+    width: 760px;
+    height:235px;
+    background-image: url("img/burger.png");
+}
+
+
+
