@@ -459,4 +459,94 @@ a:hover {
     background-color: rgb(212, 211 , 211);
 }
 
+.offers{
+    height: 422px;
+    background-image: url("img/newsletter-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
 
+.offers h1{
+    font-size: 48px;
+    width: 680px;
+    text-align: center;
+}
+
+.offers p{
+    font-size: 20px;
+}
+
+.offers-input{
+    width: 390px;
+    height: 68px;
+    border-radius: 32px;
+    border: white 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.offers-input input{
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: var(--accent);
+    border: none;
+}
+
+.offers-input input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.offers-input input:focus{
+    outline: none;
+}
+
+.offers-input button{
+    width: 116px;
+    height: 40px;
+    background-color:#263345 ;
+    color: white;
+    font-size: 13px;
+    border-radius: 32px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.offers-input button:hover{
+    background-color: black;
+    margin-left: 5px;
+}
+
+.bot-footer{
+    display: flex;
+    background-color: rgb(126, 19 , 19);
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+}
+
+.bot-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+   display: flex;
+   gap: 20px; 
+}
+
+.fadeInOnLoad{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
