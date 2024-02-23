@@ -558,3 +558,58 @@ a:hover {
     opacity: 0;
     transition: opacity 1s eas;
 }
+
+.menu-page{
+    background-image: url("img/Menu-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.menu-page-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.menu-page-headline h1{
+    font-size: 64px;
+}
+
+.menu-page-headline i{
+    font-size: 64px;
+}
+
+.menu-page-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-page-item-img{
+    width: 536px;
+    height: 470px;
+    border-radius: 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-cs{
+    background-image: url("img/chicken-salad.png");
+}
+
+.menu-steak{
+    background-image: url("img/steak.png");
+}
+.menu-burger{
+    background-image: url("img/burger.png");
+}
+.menu-cake{
+    background-image: url("img/velvet-cake.png");
+}
+
+
