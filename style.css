@@ -574,6 +574,17 @@ a:hover {
     margin: 0px 20px 0px 20px;
 }
 
+.menu-page-title hr{
+    width: 500px;
+}
+
+.menu-page-headline{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: opx 20px 0px 20px;
+}
+
 .menu-page-headline h1{
     font-size: 64px;
 }
@@ -612,4 +623,24 @@ a:hover {
     background-image: url("img/velvet-cake.png");
 }
 
+.menu-page-item-price{
+    display: flex;
+    justify-content:space-between ;
 
+}
+
+.menu-page-item-price h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.menu-page-item-price span{
+    font-size: 40px;
+}
+
+.menu-page-item-headline p{
+    width: 536px;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
