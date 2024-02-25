@@ -644,3 +644,57 @@ a:hover {
     font-weight: 300px;
     margin-top: 10px;
 }
+
+.contact-page{
+    background-image: url("img/contact-bg.png");
+    text-align: center;
+}
+
+.contact-page h1{
+    font-size: 64px;
+}
+
+.contact-pagep{
+    font-size: 24px;
+    opacity: 90%;
+}
+
+.contact-information{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    opacity: 70%;
+    margin-top: 10px;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-page form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-page form input, .contact-page form textarea{
+    border: none;
+    border-bottom: solid 1px var(--black);
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--black);
+    width: 864px;
+    height: 70px;
+}
+
+.submit-backup {
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
