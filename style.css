@@ -738,5 +738,11 @@ a:hover {
         color: white;
     }
 
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .no-visibility{
+        display: none;
+    }
 }
 
