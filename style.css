@@ -760,7 +760,13 @@ a:hover {
     .hero-img img{
         margin: 50px 0px 0px 60px;
     }
-    
+
+    .features{
+        width: 680px;
+        margin-top:150px ;
+        gap: 35px;
+    }
+
 
 }
 
