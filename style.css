@@ -750,7 +750,7 @@ a:hover {
     .hero-container{
         flex-direction: column;
         align-items: center;
-        padding: 55px;
+        padding: 50px;
     }
     .headlines{
         align-items: center;
