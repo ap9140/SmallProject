@@ -799,6 +799,22 @@ a:hover {
     .callout h1{
         font-size: 24px;
     }
+
+    .callout p{
+        font-size: 18px;
+        width: 650px;
+    }
+
+    .menu{
+        height: 1700px;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .menu-items{
+        flex-direction: column;
+        width: 760px;
+    }
     
 
 }
