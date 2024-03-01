@@ -858,3 +858,31 @@ a:hover {
 
 }
 
+@media (max-width:426px){
+    .hero-page{
+        height: 1200px;
+    }
+    .hero-container{
+        margin-top: 0px;
+    }
+    .headlines h1{
+        font-size: 24px;
+        text-wrap: wrap;
+        width: 250px;
+    }
+
+    .headlines p{
+        font-size: 16px;
+        text-wrap: wrap;
+        margin-top: 10px;
+        width: 250px;
+    }
+    .btn-red {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+
+}
+
