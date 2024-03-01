@@ -916,6 +916,53 @@ a:hover {
         text-align: center;
         margin-top: 10px;
     }
+    .about-boxes{
+        margin-top: 15px;
+        align-items: center;
+    }
+    .about-box{
+        width: 280px;
+        flex-direction: column;
+    }
+
+    .box-description {
+        width: 250px;
+        text-align: center;
+    }
+    .box-description h4 {
+        font-size: 16px;
+        width: 250px;
+    }
+    .box-description span{
+        font-size: 8px;
+        width: 240px;
+    }
+
+    .about-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .about-img{
+        width: 300px;
+        height: 300px;
+    }
+    .callout{
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+    }
+    .callout h1{
+        width: 280px;
+        font-size: 20px;
+    }
+    .callout p{
+        width: 280px;
+        font-size: 10px;
+    }
+
+    .menu{
+        height: 1000px;
+    }
     
 
 
