@@ -883,6 +883,24 @@ a:hover {
         font-size: 16px;
     }
 
+    .hero-img{
+        width: 230px;
+        height: 140px;
+    }
+    .hero-img img{
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 20px;
+    }
+
+    
+
+
+
+
+
+
+
 
 }
 
