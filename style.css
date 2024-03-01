@@ -1003,10 +1003,79 @@ a:hover {
         margin-top: 10px;
         height: 250px;
     }
+    .offers h1{
+        font-size: 12px;
+        width: 250px;
+    }
+    .offers p{
+        width: 250px;
+        font-size: 12px;
+        text-align: center;
+        opacity: 70%;
+    }
+    .offers-input{
+        flex-direction: column;
+        align-items: start;
+        width: 250px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .offer-input button{
+        width: 220px;
+    }
+    .bot-footer{
+        padding: 20px;
+    }
+    .menu-page-item{
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-page-item-headline{
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-page-item-img{
+        width: 300px;
+        height: 300px;
+    }
+    .menu-page-item-price{
+        flex-direction: column;
+    }
+    .menu-page-item-price span{
+        font-size: 24px;
+        opacity: 70%;
+    }
+    .menu-page-item-headline p{
+        width: 250px;
+        font-size: 16px;
+    }
+    .reverse-size{
+        width: 250px;
+    }
+    .contact-page h1{
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact-page p{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact-page form input,.contact-page form textarea{
+        font-size: 16px;
+        width: 280px;
+        height: 30px;
 
-
-
-
+    }
+    .contact-information{
+        align-items: start;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    
 
 
 
