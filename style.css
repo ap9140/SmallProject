@@ -892,8 +892,32 @@ a:hover {
         margin: 30px 0px 0px 0px;
         padding-left: 20px;
     }
+    .features {
+        flex-direction: column;
+        width: 250px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .about{
+        height: 1050px;
+        justify-content: start;
+        gap: 10px;;
+    }
 
+    .about h1{
+        width: 300px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about p{
+        width: 280px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    }
     
+
 
 
 
