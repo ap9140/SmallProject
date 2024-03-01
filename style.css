@@ -963,8 +963,46 @@ a:hover {
     .menu{
         height: 1000px;
     }
-    
-
+    .menu-title h1{
+        font-size: 24px;
+    }
+    .menu-items {
+        width: 300px;
+    }
+    .menu-column{
+        width: 300px;
+    }
+    .CS,.burger,.cake,.steak{
+        width: 300px;
+        height: 200px;
+    }
+    .menu-item-title{
+        width: 200px;
+        margin: 10px 0px 0px 30px;
+        font-size: 16px;
+    }
+    .testimony{
+        width: 280px;
+        height: 200px;
+    }
+    .testimony p{
+        width: 250px;
+        font-size: 12px;
+    }
+    .testimony-people{
+        gap: 12px;
+    }
+    .testimony-circle{
+        height: 24px;
+        width: 24px;
+    }
+    .testimony-people span{
+        font-size: 12px;
+    }
+    .offers{
+        margin-top: 10px;
+        height: 250px;
+    }
 
 
 
